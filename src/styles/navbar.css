@@ -1,0 +1,66 @@
+.logo {
+    height: 78px;
+    filter: drop-shadow(rgba(255, 0, 34, 0.8) 0px 0px 20px);
+}
+
+.logo:hover {
+    filter: drop-shadow(rgba(255, 0, 34, 1) 0px 0px 20px);
+}
+
+.header-container {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(255, 0, 34, 0.5) 0px 0px 25px;
+}
+
+.navbar-ul ul li {
+    all: unset;
+    margin-inline: 15px;
+}
+
+.navbar-ul ul li a,
+.profile-container a {
+    all: unset;
+    cursor: pointer;
+}
+
+.material-symbols-rounded {
+    font-size: 36px !important;
+    color: rgb(255, 255, 255);
+
+    font-variation-settings:
+        'wght' 400,
+        'GRAD' 100,
+        'opsz' 10,
+        'FILL' 0
+}
+
+a.active .material-symbols-rounded {
+    text-shadow: rgba(255, 0, 34, 0.8) 0px 0px 25px;
+    font-variation-settings:
+        'FILL' 1
+}
+
+a:hover .material-symbols-rounded {
+    text-shadow: rgba(255, 0, 34, 1) 0px 0px 25px;
+}
+
+.navbar-ul ul {
+    display: flex;
+}
+
+.navbar-ul ul li {
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-ul ul li a,
+.navbar-ul ul li a span,
+.profile-container a span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

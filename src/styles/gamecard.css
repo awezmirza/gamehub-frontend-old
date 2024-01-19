@@ -1,0 +1,26 @@
+.game-card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+    transition: height 0.7s ease, width 0.7s ease, box-shadow 0.7s ease;
+}
+
+.game-card {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 306px;
+    cursor: pointer;
+}
+
+.game-card:hover img {
+    height: 270px;
+    width: 270px;
+    box-shadow: rgba(255, 0, 34, 0.5) 0px 0px 25px;
+}
+
+.game-card h1 {
+    font-size: large;
+}

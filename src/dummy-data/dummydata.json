@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Fighting Warrior",
+        "image": "fightingwarrior512.jpg",
+        "isLive": false
+    },
+    {
+        "name": "Kingdom Savior",
+        "image": "kingdomsaviour512.jpg",
+        "isLive": false
+    },
+    {
+        "name": "Snake Game",
+        "image": "snakegame512.jpg",
+        "isLive": true
+    },
+    {
+        "name": "Avoid The Black - 3d",
+        "image": "avoidtheblack3D512.jpg",
+        "isLive": false
+    }
+]
