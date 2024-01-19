@@ -2,21 +2,29 @@
     {
         "name": "Fighting Warrior",
         "image": "fightingwarrior512.jpg",
+        "slug": "fighting-warrior",
+        "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": false
     },
     {
         "name": "Kingdom Savior",
         "image": "kingdomsaviour512.jpg",
+        "slug": "kingdom-saviour",
+        "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": false
     },
     {
         "name": "Snake Game",
         "image": "snakegame512.jpg",
+        "slug": "snake-game",
+        "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": true
     },
     {
         "name": "Avoid The Black - 3d",
         "image": "avoidtheblack3D512.jpg",
+        "slug": "avoid-the-black-3D",
+        "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": false
     }
 ]

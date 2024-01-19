@@ -10,6 +10,10 @@ import {
 
 import Root from "./layout/LayoutRoot";
 
+// RDX TKT 
+import { store } from './config/store'
+import { Provider } from 'react-redux'
+
 // Pages Import 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -17,6 +21,7 @@ import Reels from './pages/Reels';
 import Explore from './pages/Explore';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
+import GamePage from './pages/GamePage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(<>
@@ -27,6 +32,7 @@ const router = createBrowserRouter(
       <Route path="explore" element={<Explore />} />
       <Route path="profile" element={<Profile />} />
       <Route path="login" element={<Login />} />
+      <Route path=":gameslug" element={<GamePage />} />
     </Route>
   </>
   )
@@ -34,6 +40,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store} >
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );

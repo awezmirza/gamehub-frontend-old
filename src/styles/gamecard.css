@@ -24,3 +24,7 @@
 .game-card h1 {
     font-size: large;
 }
+
+.gamecardlinks{
+    all: unset;
+}
