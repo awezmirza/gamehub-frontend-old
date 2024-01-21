@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import DummyData from "../dummy-data/dummydata.json"
+import React from 'react'
 import GameCard from './GameCard';
 import "../styles/gamecardcontainer.css";
-import { useDispatch, useSelector } from 'react-redux';
-import { setGameData } from '../config/gameDataSlice';
+import { useSelector } from 'react-redux';
 
 const GameCardsContainer = () => {
 
     const data = useSelector((state) => state.gameDataSlice.value)
-    const dispatch = useDispatch();
-    useEffect(() => {
-        dispatch(setGameData(DummyData))
-    }, []);
+    console.log(data[0])
 
     return (
         <>
