@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "../styles/navbar.css"
-import logo from '../assets/logo.png'
+import { LOGO_URL } from '../utils/constant'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
 
         <div >
           <NavLink to="/">
-            <img src={logo} alt="Logo" className="logo" />
+            <img src={LOGO_URL} alt="Logo" className="logo" />
           </NavLink>
         </div>
 

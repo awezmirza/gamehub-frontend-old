@@ -9,7 +9,7 @@ const Leaderboard = () => {
         dummyLb ?
           <>
             <table>
-              <tr>
+              <tr className='lb-header'>
                 <th> Rank </th>
                 <th> Username </th>
                 <th> Score </th>
@@ -18,19 +18,18 @@ const Leaderboard = () => {
                 dummyLb.map((singlePerson) =>
                   <>
                     <tr>
-                      <td className='lb-rank'>
-                        {singlePerson.rank}
-                      </td>
-                      <td className='lb-username'>
-                        {singlePerson.username}
-                      </td>
-                      <td className='lb-score'>
-                        {singlePerson.score}
-                      </td>
+                      <td> {singlePerson.rank} </td>
+                      <td> {singlePerson.username} </td>
+                      <td> {singlePerson.score} </td>
                     </tr>
                   </>
                 )
               }
+              <tr className='current-users-score'>
+                <td> 0 </td>
+                <td> Name </td>
+                <td> NULL </td>
+              </tr>
             </table>
           </> : "Loading"
       }

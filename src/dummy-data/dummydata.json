@@ -5,7 +5,7 @@
         "slug": "fighting-warrior",
         "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": false,
-        "src": "../dummy-data/fightingwarrior512.jpg"
+        "src": "https://i.postimg.cc/Pqhs4C3t/fightingwarrior512.jpg"
     },
     {
         "name": "Kingdom Savior",
@@ -13,7 +13,7 @@
         "slug": "kingdom-saviour",
         "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": false,
-        "src": "../dummy-data/fightingwarrior512.jpg"
+        "src": "https://i.postimg.cc/2SnNhQxc/kingdomsaviour512.jpg"
     },
     {
         "name": "Snake Game",
@@ -21,7 +21,7 @@
         "slug": "snake-game",
         "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": true,
-        "src": "../dummy-data/fightingwarrior512.jpg"
+        "src": "https://i.postimg.cc/h4dZ3SH6/snakegame512.jpg"
     },
     {
         "name": "Avoid The Black - 3d",
@@ -29,6 +29,6 @@
         "slug": "avoid-the-black-3D",
         "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": false,
-        "src": "../dummy-data/fightingwarrior512.jpg"
+        "src": "https://i.postimg.cc/wvqz61LW/avoidtheblack3-D512.jpg"
     }
 ]

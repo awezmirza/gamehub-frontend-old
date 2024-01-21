@@ -13,3 +13,18 @@
 .carasoulContainer:hover {
     box-shadow: rgba(255, 0, 34, 0.5) 0px 0px 25px;
 }
+
+.game-data-style {
+    margin-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-data-style {
+    margin-top: 10px;
+}
+
+.game-description {
+    width: 75%;
+    font-weight: 200;
+}

@@ -2,18 +2,15 @@
     display: flex;
 }
 
-.lb-container h2 {
-    padding: 10px;
-}
-
 .lb-container {
+    height: min-content;
     width: 100%;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: auto;
+    padding-top: 20px;
     background-color: #121212;
     border-radius: 30px;
 }
