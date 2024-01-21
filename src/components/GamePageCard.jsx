@@ -5,11 +5,14 @@ import "../styles/gamepagecard.css"
 const GamePageCard = ({ data }) => {
 
     return (
-        <>
+        <><div>
             <div className="carasoulContainer">
                 <Carousel />
             </div>
-            <div>{data.name}</div>
+            <div>
+                Other Data
+            </div>
+        </div>
         </>
     )
 }

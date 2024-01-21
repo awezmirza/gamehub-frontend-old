@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-  const [isLogin] = useState(false);
+  const [isLogin] = useState(true);
 
   return (
     <>
@@ -61,8 +61,8 @@ const Header = () => {
               </span>
               <div>
                 Login/Sign Up
-              </div> 
-              </NavLink>}
+              </div>
+            </NavLink>}
         </div>
 
       </div>

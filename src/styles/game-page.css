@@ -1,0 +1,19 @@
+.game-page-container {
+    display: flex;
+}
+
+.lb-container h2 {
+    padding: 10px;
+}
+
+.lb-container {
+    width: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    background-color: #121212;
+    border-radius: 30px;
+}

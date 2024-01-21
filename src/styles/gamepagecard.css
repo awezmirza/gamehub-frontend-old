@@ -1,6 +1,7 @@
 .carasoulContainer {
     width: 1000px;
-    margin: 50px;
+    height: min-content;
+    margin-inline: 50px;
     background-color: #121212;
     border-radius: 20px;
     overflow: hidden;

@@ -1,0 +1,14 @@
+.leaderboard table,
+.leaderboard td,
+.leaderboard th {
+    /* border-collapse: collapse; */
+    text-align: center;
+}
+
+.leaderboard td {
+    padding: 5px 30px;
+}
+
+.leaderboard {
+    padding-bottom: 20px;
+}

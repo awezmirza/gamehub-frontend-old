@@ -1,7 +1,6 @@
 import React from 'react'
 import "../styles/carousel.css"
 
-
 // Splide 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';

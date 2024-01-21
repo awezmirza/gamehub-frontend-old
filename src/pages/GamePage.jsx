@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import GamePageCard from '../components/GamePageCard';
 import Leaderboard from '../components/Leaderboard';
+import "../styles/game-page.css";
 
 const GamePage = () => {
     const { gameslug } = useParams();
@@ -15,9 +16,12 @@ const GamePage = () => {
     }
 
     return (
-        <div>
-            {gameData ? <GamePageCard data={gameData}/> : "Not Hi"}
-            <Leaderboard />
+        <div className='game-page-container'>
+            {gameData ? <GamePageCard data={gameData} /> : "Not Hi"}
+            <div className="lb-container">
+                <h2>Leaderboard</h2>
+                <Leaderboard />
+            </div>
         </div>
     )
 }
