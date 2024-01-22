@@ -4,11 +4,20 @@ import "../styles/carousel.css"
 // Splide 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import { Link } from 'react-router-dom';
 
-const Carousel = () => {
+const Carousel = ({ data }) => {
+    console.log(data)
     return (
         <div className='carasoul'>
-            <div className="tpover"></div>
+            <div className="tpover">
+            </div>
+            {data.isLive ?
+                <Link to={data.gameLink}><button className='is-live-render'> Play Now </button></Link> :
+                <h2 className='is-live-render'> Coming Soon </h2>
+            }
+            <div className="play-game-btn">
+            </div>
             <Splide
                 options={{
                     rewind: true,

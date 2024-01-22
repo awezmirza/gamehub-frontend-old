@@ -12,23 +12,36 @@
     z-index: 1;
 }
 
+.is-live-render {
+    position: absolute;
+    background-color: #121212;
+    right: 5%;
+    bottom: 10%;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 15px;
+    z-index: 1;
+    font-weight: 500;
+    padding-inline: 10px;
+}
+
 .carasoul {
     position: relative;
 }
 
-.carasoul button {
-    box-shadow: rgba(255, 0, 34, 0.5) 0px 0px 15px;
+.carasoul button {  
     transition:
         box-shadow 0.3s ease,
 }
 
 .splide__pagination__page:focus,
 .splide__arrow:focus {
-    outline: 3px solid rgba(255, 0, 34, 1) !important;
+    outline: 3px solid rgba(255, 0, 34, 0.5) !important;
     transition:
         outline 0.3s ease;
 }
 
 .carasoul button:hover {
-    box-shadow: rgba(255, 0, 34, 1) 0px 0px 15px;
+    box-shadow: rgba(255, 0, 34, 0.5) 0px 0px 15px;
 }

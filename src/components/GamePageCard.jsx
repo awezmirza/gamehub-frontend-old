@@ -5,27 +5,10 @@ import StarRating from './StarRating';
 
 const GamePageCard = ({ data }) => {
 
-    const stars = document.querySelectorAll('svg');
-    stars.forEach((star, i) => {
-
-        star.addEventListener('click', () => {
-            resetStars()
-            for (let j = 0; j <= i; j++) {
-                stars[j].style.fill = "yellow";
-            }
-        })
-    })
-
-    function resetStars() {
-        stars.forEach((star, i) => {
-            star.style.fill = "black";
-        })
-    }
-
     return (
         <><div>
             <div className="carasoulContainer">
-                <Carousel />
+                <Carousel data={data} />
             </div>
             <div className='game-data-style'>
                 <div>

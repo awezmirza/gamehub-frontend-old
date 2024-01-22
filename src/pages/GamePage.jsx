@@ -9,7 +9,6 @@ const GamePage = () => {
     const { gameslug } = useParams();
 
     const gameData = useSelector((state) => state.gameDataSlice.value).find(item => item.slug === gameslug);
-    console.log(gameData)
 
     if (gameData === undefined) {
         return <> <h1>Game Not Found!</h1> </>

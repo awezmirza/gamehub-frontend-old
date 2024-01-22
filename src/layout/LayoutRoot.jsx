@@ -29,7 +29,12 @@ const LayoutRoot = () => {
         <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <Header />
-        {IsLoading ? "Loading" : <Outlet />}
+        {IsLoading ?
+            <>
+                <div className="loading-anim">
+                    <iframe src="https://lottie.host/embed/b1e7f0ad-f196-4954-a959-46ff17979879/FgPMUOQ7Vc.lottie" title="lottie-anim-loading" id="lottie-anim-loading"></iframe>
+                </div>
+            </> : <Outlet />}
         <Footer />
     </>
 }

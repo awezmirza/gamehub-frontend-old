@@ -21,7 +21,8 @@
         "slug": "snake-game",
         "description": "Game descriptionLorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias dolor aut hic assumenda error ut numquam eum sit illum possimus doloribus vel aliquid a et quidem explicabo voluptatibus, porro aliquam ipsum repellendus optio? ",
         "isLive": true,
-        "src": "https://i.postimg.cc/h4dZ3SH6/snakegame512.jpg"
+        "src": "https://i.postimg.cc/h4dZ3SH6/snakegame512.jpg",
+        "gameLink": "https://awezmirza.github.io/SnakeGame/"
     },
     {
         "name": "Avoid The Black - 3d",

@@ -4,7 +4,6 @@ import "../styles/stars.css"
 const Stars = () => {
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
-    console.log("loading star");
     return (
         [...Array(5)].map((_, index) => {
             return (

@@ -6,12 +6,11 @@ import { useSelector } from 'react-redux';
 const GameCardsContainer = () => {
 
     const data = useSelector((state) => state.gameDataSlice.value)
-    console.log(data[0])
 
     return (
         <>
             <div className='game-cards-container'>
-                {data ? data.map((games) => <GameCard data={games} key={games.name} />) : "Not Hi"}
+                {data ? data.map((games) => <GameCard data={games} key={games.name} />) : ""}
             </div>
         </>
     )
