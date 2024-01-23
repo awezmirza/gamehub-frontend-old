@@ -16,7 +16,7 @@ const GamePage = () => {
 
     return (
         <div className='game-page-container'>
-            {gameData ? <GamePageCard data={gameData} /> : "Not Hi"}
+            {gameData ? <GamePageCard data={gameData} /> : ""}
             <div className="lb-container">
                 <h2>Leaderboard</h2>
                 <Leaderboard />

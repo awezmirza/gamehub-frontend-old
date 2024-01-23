@@ -6,7 +6,9 @@ import { Outlet } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { setGameData } from "../config/gameDataSlice";
+import { addUserData } from "../config/userDataSlice";
 import DummyData from "../dummy-data/dummydata.json"
+import UserData from "../dummy-data/currentUserDummyData.json"
 
 const LayoutRoot = () => {
 
@@ -19,7 +21,18 @@ const LayoutRoot = () => {
             dispatch(setGameData(data))
             setIsLoading(false);
         }
+
+        // Fetching User Data 
+        const fetchUserData = async () => {
+            dispatch(addUserData(data))
+            setIsLoading(false);
+        }
+
+        const data = UserData;
         fetchData();
+        if (data) {
+            fetchUserData();
+        }
         // eslint-disable-next-line
     }, []);
 

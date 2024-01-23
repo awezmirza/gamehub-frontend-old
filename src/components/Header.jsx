@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../styles/navbar.css"
 import { LOGO_URL } from '../utils/constant'
 import { NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 const Header = () => {
   const [isLogin] = useState(true);
+
+  const userData = useSelector((state) => state.userDataSlice.value)
 
   return (
     <>
@@ -52,7 +55,7 @@ const Header = () => {
                 person
               </span>
               <div>
-                username
+                {userData?.username}
               </div>
             </NavLink> :
             <NavLink to="/login">

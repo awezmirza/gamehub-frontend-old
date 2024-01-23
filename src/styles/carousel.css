@@ -19,7 +19,7 @@
     bottom: 10%;
     border: 0;
     font-size: 2rem;
-    cursor: pointer;
+    cursor: default;
     border-radius: 15px;
     z-index: 1;
     font-weight: 500;
@@ -31,6 +31,7 @@
 }
 
 .carasoul button {  
+    cursor: pointer;
     transition:
         box-shadow 0.3s ease,
 }
