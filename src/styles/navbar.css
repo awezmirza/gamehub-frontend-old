@@ -4,7 +4,7 @@
 }
 
 .logo:hover {
-    filter: drop-shadow(rgba(255, 0, 34, 1) 0px 0px 20px);
+    filter: drop-shadow(#ff0022 0px 0px 20px);
 }
 
 .header-container {
@@ -15,6 +15,11 @@
     box-shadow: rgba(255, 0, 34, 0.5) 0px 0px 25px;
     margin-bottom: 50px;
     width: 100%;
+    position: relative;
+}
+
+.navbar-ul {
+    position: absolute;
 }
 
 .navbar-ul ul li {

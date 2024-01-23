@@ -1,9 +1,8 @@
-import React from 'react'
+const App = () => {
+    return <>
 
-const GamersNearMe = () => {
-    return (
-        <div>GamersNearMe</div>
-    )
-}
+    </>
 
-export default GamersNearMe
+};
+
+export default App;

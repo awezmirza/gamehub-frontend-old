@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/profile.css"
 import { useSelector } from 'react-redux'
 
+
 const Profile = () => {
 
   const userData = useSelector((state => state.userDataSlice.value))
@@ -42,6 +43,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
+      
     </div >
   )
 }
