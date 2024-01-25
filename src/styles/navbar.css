@@ -1,6 +1,8 @@
+/* Logo Section And Full Header */
+
 .logo {
     height: 78px;
-    filter: drop-shadow(rgba(255, 0, 34, 0.8) 0px 0px 20px);
+    filter: drop-shadow(#ff0022cc 0px 0px 20px);
 }
 
 .logo:hover {
@@ -18,13 +20,47 @@
     position: relative;
 }
 
+
 .navbar-ul {
     position: absolute;
+}
+
+/* Navbar Middle Section  */
+
+.inside-navlink {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-navlink .icon-container {
+    height: 36px;
+    width: 36px;
+    padding: 2px;
+}
+
+.inside-navlink .li-label {
+    margin-top: 3px;
+}
+
+.navbar-ul ul li a,
+.profile-container a span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-ul ul {
+    display: flex;
 }
 
 .navbar-ul ul li {
     all: unset;
     margin-inline: 15px;
+    width: 75px;
 }
 
 .navbar-ul ul li a,
@@ -33,10 +69,59 @@
     cursor: pointer;
 }
 
+/* Icon Animation */
+.icon-container img {
+    object-fit: contain;
+    width: 36px;
+    height: 36px;
+}
+
+a.active .icon-trans,
+a .icon {
+    display: none;
+}
+
+a .icon-trans,
+a.active .icon {
+    display: block;
+}
+
+/* Reels ---------- */
+
+.reel-gif-container {
+    scale: 2.32;
+    padding-bottom: 4px;
+}
+
+/* Home-------------- */
+
+a:hover .inside-navlink {
+    filter: drop-shadow(rgba(255, 0, 34, 1) 0px 0px 25px);
+}
+
+a.active .inside-navlink {
+    filter: drop-shadow(rgba(255, 0, 34, 0.8) 0px 0px 25px);
+}
+
+.home-gif-container {
+    scale: 2.65;
+}
+
+.home-icon {
+    scale: 1.29;
+    padding-left: 1px;
+}
+
+/* Map----------------------- */
+
+.mapico{
+    scale: 1.25;
+}
+
+/* Navbar Right Section -----------*/
+
 .material-symbols-rounded {
     font-size: 36px !important;
-    color: rgb(255, 255, 255);
-
     font-variation-settings:
         'wght' 400,
         'GRAD' 100,
@@ -54,20 +139,4 @@ a:hover .material-symbols-rounded {
     text-shadow: rgba(255, 0, 34, 1) 0px 0px 25px;
 }
 
-.navbar-ul ul {
-    display: flex;
-}
-
-.navbar-ul ul li {
-    width: 75px;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar-ul ul li a,
-.navbar-ul ul li a span,
-.profile-container a span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* ---------------------------- */
