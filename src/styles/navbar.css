@@ -103,6 +103,10 @@ a.active .inside-navlink {
     filter: drop-shadow(rgba(255, 0, 34, 0.8) 0px 0px 25px);
 }
 
+a:hover .mapico {
+    box-shadow: rgba(255, 0, 34, 0.3) 0px 0px 25px;
+}
+
 .home-gif-container {
     scale: 2.65;
 }
@@ -114,7 +118,7 @@ a.active .inside-navlink {
 
 /* Map----------------------- */
 
-.mapico{
+.mapico {
     scale: 1.25;
 }
 
