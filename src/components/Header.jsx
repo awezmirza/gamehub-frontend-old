@@ -88,8 +88,8 @@ const Header = () => {
               <span class="material-symbols-rounded">
                 person
               </span>
-              <div>
-                {userData?.username}
+              <div className='username-container'>
+                {userData ? userData?.username : "..."}
               </div>
             </NavLink> :
             <NavLink to="/login">

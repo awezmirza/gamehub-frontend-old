@@ -23,3 +23,7 @@
 .leaderboard table {
     border-collapse: collapse;
 }
+
+.loding-lb-div {
+    height: 55vh;
+}

@@ -8,7 +8,7 @@ import "../styles/game-page.css";
 const GamePage = () => {
     const { gameslug } = useParams();
 
-    const gameData = useSelector((state) => state.gameDataSlice.value).find(item => item.slug === gameslug);
+    const gameData = useSelector((state) => state.gameDataSlice.value)?.find(item => item.slug === gameslug);
 
     if (gameData === undefined) {
         return <> <h1>Game Not Found!</h1> </>

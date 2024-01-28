@@ -143,4 +143,8 @@ a:hover .material-symbols-rounded {
     text-shadow: rgba(255, 0, 34, 1) 0px 0px 25px;
 }
 
+.username-container{
+    text-align: center;
+}
+
 /* ---------------------------- */
